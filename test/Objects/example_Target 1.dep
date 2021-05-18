@@ -1,0 +1,10 @@
+Dependencies for Project 'example', Target 'Target 1': (DO NOT MODIFY !)
+F (..\01_Blinky\libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\TrueSTUDIO\startup_stm32f0xx.s)(0x56702708)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F051x8 SETA 1"--list .\listings\startup_stm32f0xx.lst --xref -o .\objects\startup_stm32f0xx.o --depend .\objects\startup_stm32f0xx.d)
+F (..\01_Blinky\libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c)(0x56702708)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\libraries -I .\libraries\STM32F0xx_StdPeriph_Driver\inc -I .\libraries\STM32F0xx_StdPeriph_Driver\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F051x8-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56EA1962)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f051x8.h)(0x56EA1962)
+F (..\01_Blinky\src\main.c)(0x588F249F)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\libraries -I .\libraries\STM32F0xx_StdPeriph_Driver\inc -I .\libraries\STM32F0xx_StdPeriph_Driver\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F051x8-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_conf.h)(0x56702708)
+I (.\libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x56702708)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56EA1962)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f051x8.h)(0x56EA1962)

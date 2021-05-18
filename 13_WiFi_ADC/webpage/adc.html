@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>ESP8266 LED Control</title>
+	</head>
+	<body>
+		
+	<button id="10" class="start">Start</button>
+	<br>
+	<br>
+	<span id="adc" text="0">ADC0: 0</span>
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".start").click(function(){
+				setInterval(function() {
+					$.get("http://192.168.4.1:80/", function(data) {
+						console.log(data);
+						$('#adc').text("ADC0: " + data);
+					});
+				}, 3500);				
+			});
+		});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\install\main.o"
+".\install\startup_stm32f0xx.o"
+".\install\system_stm32f0xx.o"
+".\install\stm32f0xx_adc.o"
+".\install\stm32f0xx_cec.o"
+".\install\stm32f0xx_comp.o"
+".\install\stm32f0xx_crc.o"
+".\install\stm32f0xx_dac.o"
+".\install\stm32f0xx_dbgmcu.o"
+".\install\stm32f0xx_dma.o"
+".\install\stm32f0xx_exti.o"
+".\install\stm32f0xx_flash.o"
+".\install\stm32f0xx_gpio.o"
+".\install\stm32f0xx_i2c.o"
+".\install\stm32f0xx_iwdg.o"
+".\install\stm32f0xx_misc.o"
+".\install\stm32f0xx_pwr.o"
+".\install\stm32f0xx_rcc.o"
+".\install\stm32f0xx_rtc.o"
+".\install\stm32f0xx_spi.o"
+".\install\stm32f0xx_syscfg.o"
+".\install\stm32f0xx_tim.o"
+".\install\stm32f0xx_usart.o"
+".\install\stm32f0xx_wwdg.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Blinky.map" -o .\install\Blinky.axf
